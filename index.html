@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modern-normalize.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="click.js"></script>
+    <script src="distances.js"></script>
+  </head>
+  <body id="background">
+    <h1 id="title">New Seven Wonders of the World</h1>
+    <div id="menu_container">
+      <div id="menu">
+        <div id="china_container" class="item_container">
+          <div id="china_item" class="menu_item">
+            <h2 class="menu_item_label">🇨🇳 Great Wall of China</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/china.mp4"
+            id="china_video"
+            class="video"
+          ></video>
+          <h3 class="header">Great Wall of China</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="china_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="petra_container" class="item_container">
+          <div id="petra_item" class="menu_item">
+            <h2 class="menu_item_label">🇯🇴 Petra</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/petra.mp4"
+            id="petra_video"
+            class="video"
+          ></video>
+          <h3 class="header">Petra, Jordan</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="petra_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="machu_container" class="item_container">
+          <div id="machu_item" class="menu_item">
+            <h2 class="menu_item_label">🇵🇪 Machu Picchu</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/machu.mp4"
+            id="machu_video"
+            class="video"
+          ></video>
+          <h3 class="header">Machu Picchu, Peru</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="machu_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="itza_container" class="item_container">
+          <div id="itza_item" class="menu_item">
+            <h2 class="menu_item_label">🇲🇽 Chichén Itzá</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/itza.mp4"
+            id="itza_video"
+            class="video"
+          ></video>
+          <h3 class="header">Chichén Itzá, Mexico</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="itza_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="colosseum_container" class="item_container">
+          <div id="colosseum_item" class="menu_item">
+            <h2 class="menu_item_label">🇮🇹 Colosseum</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/colosseum.mp4"
+            id="colosseum_video"
+            class="video"
+          ></video>
+          <h3 class="header">Colosseum, Italy</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="colosseum_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="taj_container" class="item_container">
+          <div id="taj_item" class="menu_item">
+            <h2 class="menu_item_label">🇮🇳 Taj Mahal</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/taj.mp4"
+            id="taj_video"
+            class="video"
+          ></video>
+          <h3 class="header">Taj Mahal, India</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="taj_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+        <div id="christ_container" class="item_container">
+          <div id="christ_item" class="menu_item">
+            <h2 class="menu_item_label">🇧🇷 Christ the Redeemer</h2>
+          </div>
+          <video
+            loop
+            muted
+            playsinline
+            src="sources/christ.mp4"
+            id="christ_video"
+            class="video"
+          ></video>
+          <h3 class="header">Christ the Redeemer, Brazil</h3>
+          <h2 class="distance_label">distance to destination</h2>
+          <h2 id="christ_distance" class="distance_value">
+            Geolocation not available.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
